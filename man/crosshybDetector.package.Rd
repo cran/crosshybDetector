@@ -10,14 +10,16 @@ Detection of cross-hybridization events in microarray experiments
 probability of cross-hybridization by using the probe intensity values. The software provides
 the user with the list of probes potentially corrupted and the associated p-values computed
 by Monte Carlo simulations. Plots are generated allowing a global overview of the cross-hybridization
-events in a microarray experiments.
+events in a microarray experiments. The package contains code from the dismissed pairseqsim package
+ (removed in BioConductor > 1.9 ), created by Witold Wolski <witek96@users.sourceforge.net> and
+  released under GNU LGPL license
 }
 \details{
 \tabular{ll}{
 Package: \tab crosshybDetector\cr
 Type: \tab Package\cr
-Version: \tab 1.0.1\cr
-Date: \tab 2007-07-31\cr
+Version: \tab 1.0.3\cr
+Date: \tab 2008-06-12\cr
 License: \tab LGPL\cr
 }
 }
@@ -48,7 +50,7 @@ for (k in 1:length(arrayNames)){
   # Run crosshyb
   crosshyb.out <- crosshyb(raw, probeSeq, plate=k, numPermut=10000,
                            probeNameID="Name", probes="probes",
-                           satValue = 65535, maxProbes=100)                  
+                           satValue = 65535, maxProbes=50)                  
     
   # Write probes analyzed by crosshyb to file
   # Not nice for reading but useful for tracking

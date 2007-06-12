@@ -1,5 +1,15 @@
-crosshybDetector 1.0
-====================
+crosshybDetector 1.0.3
+======================
+
+Removed dependency from pairseqsim which has been dismissed starting from 
+Bioconductor 2.0.
+Code from pairseqsim package has been included into crosshybDetector.
+
+Date: June 10, 2008
+
+
+crosshybDetector 1.0.1
+======================
 
 crosshybDetector is a package to compute the probability of 
 cross-hybridization based on probe intensity values.
@@ -10,7 +20,6 @@ you need to install it manually from the Bioconductor web site.
 
 
 Manual installation of pairseqsim package
-=========================================
 
 Download pairseqsim 1.8.0 included in BioC 1.9 from
 
@@ -25,3 +34,4 @@ The R GUI for Mac OS X and Windows have a graphical interface to
 the install.packages function.
 
 Date: July 31, 2007
+

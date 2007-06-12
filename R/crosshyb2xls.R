@@ -27,11 +27,11 @@ function(raw, array=NULL, parent, children, arrayName, channel=c("red", "green")
   write.table(parent.df, file=paste(preName, "_corruptors", chName, ".xls", sep=""), sep="\t", quote=FALSE, row.names=FALSE, col.names=TRUE )
   
   # Create children dataframe    
-  child.df  <- data.frame(child, 
-                          I(maInfo(maGnames(raw))[[probeNameID]][child]),
-                          maf[child],
-                          mab[child])
-  colnames(child.df)  <- colNames
-  write.table(child.df, file=paste(preName, "_corrupted", chName, ".xls", sep=""), sep="\t", quote=FALSE, row.names=FALSE, col.names=TRUE )
+  children.df  <- data.frame(children, 
+                          I(maInfo(maGnames(raw))[[probeNameID]][children]),
+                          maf[children],
+                          mab[children])
+  colnames(children.df)  <- colNames
+  write.table(children.df, file=paste(preName, "_corrupted", chName, ".xls", sep=""), sep="\t", quote=FALSE, row.names=FALSE, col.names=TRUE )
 }
 

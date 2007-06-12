@@ -15,7 +15,7 @@ crosshyb_func(input, seqList, mysub, numPermut,
   \item{input}{ A dataframe containing the i) raw intensity value, 
   ii) the probe type (e.g. spike, probes, negative,...) and
   iii) the probe name }
-  \item{seqList}{ An object of class \code{AASequenceList} created with \code{readFasta} from the \code{pairseqsim} package }
+  \item{seqList}{ An object of class \code{AASequenceList} created with \code{readFasta} }
   \item{mysub}{ Substitution matrix to be used for the alignment }
   \item{numPermut}{ Number of permutations for Monte Carlo simulations }
   \item{probes}{ A vector with the probes to be analyzed (e.g. probes, spike, etc) }
