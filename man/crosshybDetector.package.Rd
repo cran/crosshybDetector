@@ -16,8 +16,8 @@ events in a microarray experiments.
 \tabular{ll}{
 Package: \tab crosshybDetector\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2007-07-23\cr
+Version: \tab 1.0.1\cr
+Date: \tab 2007-07-31\cr
 License: \tab LGPL\cr
 }
 }
@@ -37,7 +37,7 @@ events in DNA microarray experiments. Submitted.
 # This workflow will produce several images and files
 # containing the results of crosshybDetector
 
-pVal <- 0.01       # Threshold for corruptors
+pVal <- 0.01        # Threshold for corruptors
 data(probeSeq)      # Vector of probe sequences
 data(raw)           # Object of class marrayRaw containing one array
 
