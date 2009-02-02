@@ -1,3 +1,10 @@
+crosshybDetector 1.0.4
+======================
+
+Fixed parsing errors using Rdversion 2 parser
+
+Date: February 02, 2009
+
 crosshybDetector 1.0.3
 ======================
 

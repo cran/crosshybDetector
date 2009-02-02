@@ -10,10 +10,8 @@
 \format{
   An object of class \code{marrayRaw}
 }
-\references{
-Uva, P., and de Rinaldis, E. CrosshybDetector: detection of cross-hybridization
-events in DNA microarray experiments. Submitted.
-}
+\references{ Uva, P., and de Rinaldis, E. CrossHybDetector: detection of cross-hybridization events in DNA microarray experiments. BMC Bioinformatics 2008, 9:485 }
+
 \examples{
 data(raw)
 str(raw)

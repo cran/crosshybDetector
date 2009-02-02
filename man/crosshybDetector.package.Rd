@@ -18,18 +18,15 @@ events in a microarray experiments. The package contains code from the dismissed
 \tabular{ll}{
 Package: \tab crosshybDetector\cr
 Type: \tab Package\cr
-Version: \tab 1.0.3\cr
-Date: \tab 2008-06-12\cr
+Version: \tab 1.0.4\cr
+Date: \tab 2009-02-02\cr
 License: \tab LGPL\cr
 }
 }
 \author{
-Paolo Uva <paolo\_uva@merck.com>
+Paolo Uva <paolo.uva@gmail.com>
 }
-\references{
-Uva, P., and de Rinaldis, E. CrosshybDetector: detection of cross-hybridization
-events in DNA microarray experiments. Submitted.
-}
+\references{ Uva, P., and de Rinaldis, E. CrossHybDetector: detection of cross-hybridization events in DNA microarray experiments. BMC Bioinformatics 2008, 9:485 }
 \keyword{ package }
 \seealso{
 \code{\link{crosshyb}}

@@ -35,7 +35,7 @@ crosshyb_func(input, seqList, mysub, numPermut,
   multiple testing)}
   \item{children}{A list containing the corrupted probes for each putative corruptor}
 }
-\references{ Uva, P., and de Rinaldis, E. CrosshybDetector: detection of cross-hybridization events in DNA microarray experiments. Submitted. }
+\references{ Uva, P., and de Rinaldis, E. CrossHybDetector: detection of cross-hybridization events in DNA microarray experiments. BMC Bioinformatics 2008, 9:485 }
 \author{ Paolo Uva }
 \seealso{ \code{\link{crosshyb}} }
 \keyword{ misc }
