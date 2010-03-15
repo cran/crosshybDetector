@@ -20,6 +20,7 @@ Objects can be created by calls of the form \code{new("AASequenceList", ...)}.
     \item{\code{.Data}:}{Object of class \code{"list"} : list of
       AASequence objects.}
     \item{\code{info}:}{Object of class \code{"character"} : info character}
+    \item{\code{names}:}{Object of class \code{"character"} : names}
   }
 }
 \section{Extends}{

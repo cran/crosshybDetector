@@ -18,8 +18,8 @@ events in a microarray experiments. The package contains code from the dismissed
 \tabular{ll}{
 Package: \tab crosshybDetector\cr
 Type: \tab Package\cr
-Version: \tab 1.0.4\cr
-Date: \tab 2009-02-02\cr
+Version: \tab 1.0.5\cr
+Date: \tab 2010-03-15\cr
 License: \tab LGPL\cr
 }
 }
